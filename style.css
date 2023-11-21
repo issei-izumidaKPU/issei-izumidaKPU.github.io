@@ -1,0 +1,111 @@
+/* ボディ全体 */
+body {
+    background-color: #dbefff;
+    color: #333;
+    font-family: sans-serif;
+  }
+  
+  /* ナビゲーション */
+  nav {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #dbefff;
+  }
+  
+  /* メインコンテンツ */
+  .box {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #000000;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #021f48;
+    padding: 10px;
+  }
+  
+  table th {
+    background-color: #dbefff;
+  }
+  input[type=text]{
+    padding: 2px 20px;
+    margin: 1px 0;
+    border-color: #1b29af;
+    background-color: #1dd2ea50;
+}
+textarea{
+    background-color: #1dd2ea50;
+    border-color: #0e11db;
+    border: solid #0e11db;
+}
+fieldset{
+    padding: 20px;
+    border: solid 2px #687f96;
+}
+legend{
+    padding: 8px 20px;
+    background-color: #041870;
+    color: white;
+}
+input[type="radio"]:checked{
+    box-shadow: 0 0 0 3px #26f2c9;
+}
+input[type="checkbox"]:checked{
+    box-shadow: 0 0 0 3px #26f2c9;
+}
+.form-item{
+    position:relative;
+}
+.form-item .fa-solid{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: #041870;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* 画像とテキストを上下に並べる */
+    height: 100vh; /* 高さを画面の高さに合わせる */
+  }
+  
+  img {
+    display: block; /* 不必要な余白を消すために画像にはdisplay: blockを指定 */
+    margin: 0 auto; /* 左右にautoを指定して、画像を中央に配置する */
+  }
+  
+  h1 ,p{
+    text-align: center; /* テキストを中央に配置する */
+  }
